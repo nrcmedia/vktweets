@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="author" content="xiffy">
-		<title>nrc.nl, de tweets in grafieken</title>
+		<title>vk.nl, de tweets in grafieken</title>
 		<link rel="stylesheet" href="./style2.css" />
-		<link rel="alternate" type="application/rss+xml" title="Artikelen van nrc.nl" href="./rss.php">
+		<link rel="alternate" type="application/rss+xml" title="Artikelen van vk.nl" href="./rss.php">
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script src="highcharts.js"></script>
 	</head>
@@ -36,7 +36,7 @@ $chart4_data = tweets_per_article();
 
 ?>
 
-		<h1>nrc.nl tweets in grafieken </h1>
+		<h1>vk.nl tweets in grafieken </h1>
 <?php include ('menu.php'); ?>
 		<div class="center full">
 

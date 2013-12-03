@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="author" content="xiffy">
-		<title>nrc.nl, de artikelen - populair op twitter</title>
+		<title>vk.nl, de artikelen - populair op twitter</title>
 		<link rel="stylesheet" href="./style2.css" />
 	</head>
 	<body>
@@ -44,7 +44,7 @@ if(isset($_GET['mode']))
 			break;
 		case 'day':
 			$mode = ' where tweets.created_at > date_add(now(), interval -24 hour) ';
-			$title = 'Populaire artikelen op \'nrc.nl\' volgens twitter (afgelopen 24 uur)';
+			$title = 'Populaire artikelen op \'vk.nl\' volgens twitter (afgelopen 24 uur)';
 			if (isset($_GET['disposition']))
 			{
 				$disp = (int) $_GET['disposition'];

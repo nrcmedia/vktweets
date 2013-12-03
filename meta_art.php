@@ -51,7 +51,7 @@ $th = $th_pubdate.'<th>Title / Article</th>'.$th_extra.$th_tweets.'<th>FB</th>';
 		<meta charset="utf-8">
 		<meta name="author" content="xiffy">
 
-		<title>nrc.nl, artikelen <?php echo $title_by_in; ?>: <?php echo $meta_row['waarde'].' ('.$mode.')';?></title>
+		<title>vk.nl, artikelen <?php echo $title_by_in; ?>: <?php echo $meta_row['waarde'].' ('.$mode.')';?></title>
 		<link rel="stylesheet" href="./style2.css" />
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script src="highcharts.js"></script>

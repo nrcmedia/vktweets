@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="author" content="xiffy">
-		<title>nrc.nl, de artikelen volgens twitter</title>
+		<title>vk.nl, de artikelen volgens twitter</title>
 		<link rel="stylesheet" href="./style2.css" />
 	</head>
 	<body>
