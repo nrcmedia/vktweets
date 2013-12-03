@@ -1,0 +1,234 @@
+﻿body {
+	background: #eee;
+	font-family: tahoma, "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 12px;
+	color: #444;
+	padding: 0;
+	margin: 0;
+}
+a {
+	color: #000;
+	text-decoration: none;
+	}
+a:hover,
+a:active {
+	border-bottom: 1px dotted red;
+	}
+a:visited {
+	border-bottom: 1px solid #666;
+	}
+table {
+	background: #fff;
+	margin: 0 auto;
+	font-size: 14px;
+	border-spacing: 0;
+	border: 1px solid #ccc;
+	}
+tr:hover,
+tr.odd:hover {
+	background: #9ECECA;
+	}
+td {
+	padding: 2px 5px;
+	}
+tr.odd {
+	background: #efefef;
+	}
+th {
+	background: #eee;
+	}
+
+
+h1 {
+	width: auto;
+	color: #ccc;
+	background-color: #003366;
+	box-shadow: 0 -20px 50px #0060bf inset;
+	padding: 5px 10px 30px 10px;
+	margin: 0 0 10px 0;
+	}
+h1 a {
+	color: #fff;
+	}
+h1 .twitter-follow-button {
+	float: right;
+	margin: 15px;
+	}
+.meta-table {
+	float: left;
+	max-width: 60%;
+	min-width: 60%;
+	margin: 0 10px;
+	}
+.center {
+	width: 100%;
+	}
+.clear {
+	clear: both;
+	}
+.all {
+	padding: 0 5px;
+	margin-bottom: 3px;
+	}
+
+#topmenu {
+	width: 600px;
+	position: absolute;
+	top: 40px;
+	left: 15px;
+	color: #fff;
+	font-size: 16px;
+	}
+#topmenu, #topmenu * {
+	z-index: 2000;
+	}
+ul#topmenu {
+	margin: 0;
+	padding: 0;
+	}
+#topmenu ul {
+	margin: 0;
+	padding: 0;
+	}
+#topmenu a {
+	fontsize: 16px;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	overflow: hidden;
+	}
+#topmenu li {
+	margin: 0;
+	padding 0;
+	width: 170px;
+	display: inline;
+	float: left;
+	}
+#topmenu li.small {
+	width: 80px;
+	}
+
+#topmenu li li {
+	width: 250px;
+	}
+ul#topmenu ul {
+	display: none;
+	z-index: 100;
+	}
+ul#topmenu ul li {
+	background: #003366;
+	padding: 0 10px;
+	width: 300px;
+	height: 25px;
+	margin: 0 -10px;
+		z-index: 100;
+	}
+ul#topmenu ul li:last-child {
+	border-bottom:5px solid #003366;
+	}
+ul#topmenu ul li:first-child {
+	border-top:5px solid #003366;
+	}
+ul#topmenu li:hover > ul {
+	display: block;
+	background: #fff;
+	}
+ul#topmenu li ul li div {
+	width: 100%;
+	height: 25px;
+	}
+ul#topmenu li ul li a:hover > div {
+	color: #000;
+	background: #fff;
+	}
+.search_box {
+	width: 300px;
+	background: #fff;
+	margin: 10px auto;
+	padding: 5px;
+	}
+label {
+	font-weight: bold;
+	}
+.search_box input[type=text] {
+	border: 1px solid #444;
+	padding: 2px 5px;
+	margin: 1px 5px;
+	}
+ul#pager {
+	margin: 10px auto;
+	padding: 5px;
+	width: 95%;
+	background-color: #fff;
+	height: 24px;
+}
+#meta_art ul#pager {
+	clear:left;
+	float: left;
+	max-width: 60%;
+	}
+.center.full {
+	margin: 0 20px;
+	width: auto;
+	}
+.meta_graph {
+	width: 800px;
+	margin: 10px auto 10px 40px;
+}
+ul#pager li {
+	margin: 0 5px;
+	padding: 0;
+	display: inline;
+	float: left;
+	width: 20px;
+	color: #fff;
+	background:  #000;
+	text-align: center;
+	font-size: 16px;
+	}
+
+form.disp_selector {
+	display: inline;
+	margin: 2px 5px;
+	}
+ul#pager li a {
+	color: #fff;
+	font-weight: bold;
+	}
+ul#pager li:hover {
+	background: #9ECECA;
+	}
+ul#pager li a:hover {
+	color: #000;
+	}
+ul#pager li.text {
+	background: transparent;
+	color: #000;
+	width: auto;
+	}
+footer {
+	margin: 0;
+	background: #0060bf;
+	color: #ddd;
+	min-height: 200px;
+	padding-top: 20px;
+	}
+footer p {
+	padding: 0 10px;
+	}
+footer a {
+	color: #fff;
+	}
+footer .follow-me {
+	display: inline;
+	float: right;
+	margin: 10px;
+	width: 200px;
+	background: #333;
+	color: #fff;
+	border-radius: 5px;
+	}
+.follow-me .twitter-follow-button {
+	margin-left:20px;
+	margin-top: 10px;
+	}
